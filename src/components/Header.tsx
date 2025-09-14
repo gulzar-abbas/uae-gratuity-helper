@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const navLinks = [
-    { href: "https://sites.google.com/view/face-shape-detector-/home", text: "Face Shape Detector" },
-    { href: "#", text: "Face Shape Detector Online Camera" },
-    { href: "#", text: "Face Shape Detector Online Free" },
-    { href: "#", text: "Find My Face Shape Online Free" },
+    { href: "https://sites.google.com/view/face-shape-detector-/home", text: "face shape detector" },
+    { href: "#", text: "face shape detector online camera" },
+    { href: "#", text: "face shape detector online free" },
+    { href: "https://whatismyfaceshape.net/", text: "Face Shape Analysis" },
     { href: "https://github.com/gulzar-abbas", text: "Developer Profile" },
   ];
 
