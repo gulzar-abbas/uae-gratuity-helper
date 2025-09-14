@@ -2,9 +2,10 @@ import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const navLinks = [
-    { href: "https://sites.google.com/view/uae-gratuity-calculator-mohre/home", text: "MOHRE Gratuity Calculator" },
-    { href: "https://sites.google.com/view/uae-gratuity-calculator/", text: "UAE Gratuity Calculator" },
-    { href: "https://sites.google.com/view/mohre-gratuity-calculator-uae/", text: "Gratuity Calculator Dubai" },
+    { href: "https://sites.google.com/view/face-shape-detector-/home", text: "Face Shape Detector" },
+    { href: "#", text: "Face Shape Detector Online Camera" },
+    { href: "#", text: "Face Shape Detector Online Free" },
+    { href: "#", text: "Find My Face Shape Online Free" },
     { href: "https://github.com/gulzar-abbas", text: "Developer Profile" },
   ];
 
@@ -14,10 +15,10 @@ const Header = () => {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">UAE</span>
+              <span className="text-primary-foreground font-bold text-sm">FSA</span>
             </div>
             <h1 className="text-xl font-bold text-foreground">
-              UAE Gratuity Calculator
+              Face Shape Detector
             </h1>
           </div>
           
